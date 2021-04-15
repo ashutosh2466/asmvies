@@ -1,0 +1,97 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/dear.jpg);
+    background-position: unset;
+    background: size -99px;
+    background-size: cover;
+    
+}
+.logo{
+    width: 150px;
+    margin-top: 18px;
+}
+.header{
+    height: 20%;
+
+}
+.header-btn{
+    text-decoration:none !important;
+    border-radius: 40px;
+    padding: 6px,40px;
+    float: right;
+    margin-top: 15px;
+    color: #fff !important;
+    background: #107afd;
+    font-weight: 400;
+}
+.movie-details{
+    margin: 3% 0;
+}
+.left-box{
+    color: white;
+    margin: 15px 0;
+    padding: 20px;
+}
+.casting img{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+     
+}
+.left-box a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none !important;
+    border-radius: 40px;
+    padding: 6px,40px;
+    float: right;
+    margin-top: 15px;
+    color: #fff !important;
+    background: #107afd;
+    font-weight: 400;
+   
+   
+   
+   
+   
+
+}
+.download-btn{
+    border: 1px solid #fff !important;
+    background: transparent !important;
+
+}
+.fa {
+    
+    margin: 0,5px;
+    padding: 2px;
+}
+.movie-img{
+    height: 350px;
+    box-shadow: -4px 4px 5px0 #000;
+    margin-top: -77%;
+    margin-left: 270%;
+}
+.series h3{
+    color:#fff
+}
+h3 {
+    color: white;
+    margin: 300px;
+}
+.series img{
+    width: 100%;
+   margin-top: 15px;
+   box-shadow: -5px 4px 5px 0 #000;
+   cursor: pointer;
+   transition: 1s;
+
+}
+.series img:hover{
+    transform: translateY(-20px);
+}
